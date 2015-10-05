@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "dale@armstrongassoc.net";
+    $email_to = "EMAIL_ADDRESS_REMOVED_FOR_PRIVACY";
  
     $email_subject = "NOTICE: Someone wants you to contact them about your rental property! ";
  
