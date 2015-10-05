@@ -1,0 +1,210 @@
+/***************************
+GENERAL
+****************************/
+
+body {
+  font-family: 'Amiri', serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+a {
+  text-decoration: none;  
+}
+
+img {
+  max-width: 100%
+}
+
+h4 {
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+}
+
+/***************************
+HEADING
+****************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  margin: 15px 0;
+  font-size: 4.75em; 
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.50em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/***************************
+NAVIGATION
+****************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/***************************
+FOOTER
+****************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+
+
+/***************************
+PAGE: GALLERY
+****************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: right;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;  
+}
+
+
+
+/***************************
+PAGE: ABOUT
+****************************/
+
+.profile-photo {
+  float: center;
+  width: 100%;
+  margin: 2.5%;
+}
+
+
+
+/***************************
+PAGE: CONTACT
+****************************/
+  
+}
+
+label {
+  margin: 0;
+  padding: 5%;
+  font-size: 1em;
+  color: #bdc3c8;
+}
+
+tr {
+  float: center;
+  width: 100%;
+  margin: 2.5%;
+}
+
+
+
+/***************************
+COLORS
+****************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background-color: #6ab47b;
+  border-color: #599a68;
+}
+
+/* nav background on mobile devices */
+nav {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2, h3 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
